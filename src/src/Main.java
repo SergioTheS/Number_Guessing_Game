@@ -8,8 +8,8 @@ public class Main {
 		System.out.println("I'm thinking of a number between 1 and 100.");
 		System.out.println("You have 5 chances to guess the correct number.");
 		int numToGuess = (int)(Math.random()*101);
-		int option = 0;
-		menu.printMenu(option);
+		menu.printMenu();
+		System.out.println(menu.getOption());
 		System.out.println(numToGuess);
 	}
 	
